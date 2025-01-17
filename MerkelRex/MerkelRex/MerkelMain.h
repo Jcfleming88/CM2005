@@ -1,3 +1,15 @@
+#include <iostream>
+#include <map>
+#include <string>
+#include <vector>
+
+#include "OrderBook.h"
+#include "OrderBookEntry.h"
+#include "PricingUtils.h"
+#include "TextUtils.h"
+#include "CSVParser.h"
+#include "Wallet.h"
+
 #pragma once
 class MerkelMain
 {
@@ -17,7 +29,11 @@ private:
     void gotoNextTimeframe();
     void printExitMessage();
     void printInvalidInput();
-    void printBreak();
     bool processUserOption(int userOption);
+
+    std::string currentTime;
+
+    Wallet wallet{};
+    OrderBook orderBook{ "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\1XejnIsmSmK3o5yLJkpiUg_2402656ae54246e880715f135341f5f7_20200317.csv" };
 };
 

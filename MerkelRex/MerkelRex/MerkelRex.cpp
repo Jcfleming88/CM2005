@@ -1,9 +1,18 @@
 // MerkelRex.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
-#include <iostream>
 #include "./MerkelMain.h"
 
+// Test function - CSVParser
+//#include "./CSVParser.h"
+//int main()
+//{
+//	//CSVParser parser{};
+//	CSVParser::ReadFile("C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\1XejnIsmSmK3o5yLJkpiUg_2402656ae54246e880715f135341f5f7_20200317.csv");
+//
+//	return 0;
+//}
+
+// Main function
 int main() {
     MerkelMain app{};
     app.init();
