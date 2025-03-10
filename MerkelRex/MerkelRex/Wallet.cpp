@@ -1,4 +1,7 @@
 #include "Wallet.h"
+#include "CSVParser.h"
+
+#include <iostream>
 
 Wallet::Wallet()
 {
@@ -18,22 +21,73 @@ void Wallet::insertCurrency(std::string type, double amount)
 		throw std::exception("Amount cannot be negative");
 	}
 
+	double balance;
 	if (currencies.count(type) == 0)
 	{
-		currencies[type] = 0;
+		balance = 0;
+	}
+	else {
+		balance = currencies[type];
 	}
 
-	currencies[type] += amount;
+	balance += amount;
+	currencies[type] = balance;
 }
 
 bool Wallet::removeCurrency(std::string type, double amount)
 {
+	if (amount < 0)
+	{
+		throw std::exception("Amount cannot be negative");
+	}
+
+	if (currencies.count(type) == 0)
+	{
+		return false;
+	}
+	else {
+		if (containsCurrency(type, amount))
+		{
+			currencies[type] -= amount;
+			std::cout << "Removing " << amount << " " << type << " from the wallet" << std::endl;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
 	return true;
 }
 
 bool Wallet::containsCurrency(std::string type, double amount)
 {
-	return true;
+	if (currencies.count(type) == 0)
+		return false;
+	else
+		return currencies[type] >= amount;
+}
+
+bool Wallet::canFulfillOrder(OrderBookEntry order)
+{
+	std::vector<std::string> currencies = CSVParser::Tokenise(order.product, '/');
+
+	// ask
+	if (order.orderType == OrderBookType::ask)
+	{
+		double amount = order.amount;
+		std::string currency = currencies[0];
+		return containsCurrency(currency, amount);
+	}
+	// bid
+	else if (order.orderType == OrderBookType::bid)
+	{
+		double amount = order.price * order.amount;
+		std::string currency = currencies[1];
+		return containsCurrency(currency, amount);
+	}
+
+	return false;
 }
 
 std::string Wallet::toString()
@@ -56,4 +110,34 @@ std::string Wallet::toString()
 	}
 
 	return s;
+}
+
+void Wallet::processSale(OrderBookEntry& sale)
+{
+	std::vector<std::string> currencies = CSVParser::Tokenise(sale.product, '/');
+	
+	// ask
+	if (sale.orderType == OrderBookType::asksale)
+	{
+		double outgoingAmount = sale.amount;
+		std::string outgoingCurrency = currencies[0];
+
+		double incomingAmount = sale.price * sale.amount;
+		std::string incomingCurrency = currencies[1];
+
+		removeCurrency(outgoingCurrency, outgoingAmount);
+		insertCurrency(incomingCurrency, incomingAmount);
+	}
+	// bid
+	else if (sale.orderType == OrderBookType::bidsale)
+	{
+		double incomingAmount = sale.amount;
+		std::string incomingCurrency = currencies[0];
+
+		double outgoingAmount = sale.price * sale.amount;
+		std::string outgoingCurrency = currencies[1];
+
+		removeCurrency(outgoingCurrency, outgoingAmount);
+		insertCurrency(incomingCurrency, incomingAmount);
+	}
 }

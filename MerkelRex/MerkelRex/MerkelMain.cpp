@@ -2,12 +2,33 @@
 
 void MerkelMain::init()
 {
+	//std::cout << "Testing wallet. Start by showing empty wallet." << std::endl;
+ //   std::cout << wallet.toString() << std::endl;
+	//TextUtils::printBreak();
+ //   std::cout << "Inserting 10 BTC" << std::endl;
+ //   wallet.insertCurrency("BTC", 10);
+ //   std::cout << "Wallet contents " << wallet.toString() << std::endl;
+ //   TextUtils::printBreak();
+	//std::cout << "Remove 5 BTC" << std::endl;
+	//wallet.removeCurrency("BTC", 5);
+	//std::cout << "Wallet contents " << wallet.toString() << std::endl;
+	//TextUtils::printBreak();
+	//std::cout << "Check what is in the wallet" << std::endl;
+ //   std::cout << "Check for 5 BTH: " << wallet.containsCurrency("BTC", 5) << std::endl;
+ //   std::cout << "Check for 10 BTH: " << wallet.containsCurrency("BTC", 10) << std::endl;
+
+
 	bool runScript = true;
 	currentTime = orderBook.getEarliestTime();
+
+	wallet.insertCurrency("BTC", 10);
+	wallet.insertCurrency("ETH", 5);
+
     while (runScript)
     {
         printMenu();
         int userOption = getUserInput();
+		TextUtils::clearConsole();
         runScript = processUserOption(userOption);
     }
     return;
@@ -37,13 +58,13 @@ void MerkelMain::printMenu()
     std::cout << "9. Exit" << std::endl;
 
     // Current time
-    TextUtils::PrintBreak();
+    TextUtils::printBreak();
 	std::cout << "Current time: " << currentTime << std::endl;
 }
 
 int MerkelMain::getUserInput()
 {
-    TextUtils::PrintBreak();
+    TextUtils::printBreak();
     std::cout << "Type in 1-6 or 9 to exit" << std::endl;
 
     int userOption;
@@ -91,7 +112,7 @@ void MerkelMain::enterAsk()
     std::string input;
 	std::getline(std::cin, input);
 
-    TextUtils::PrintBreak();
+    TextUtils::printBreak();
 
 	std::vector<std::string> tokens = CSVParser::Tokenise(input, ',');
     if (tokens.size() != 3) {
@@ -106,8 +127,18 @@ void MerkelMain::enterAsk()
                 tokens[1],
                 tokens[2]
             );
+			newOrder.username = "simuser";
 
-			orderBook.insertOrder(newOrder);
+			if (wallet.canFulfillOrder(newOrder))
+			{
+				orderBook.insertOrder(newOrder);
+                std::cout << "Ask placed: " << input << std::endl;
+            }
+			else
+			{
+				std::cout << "Wallet has insufficient funds." << std::endl;
+                return;
+			}
         }
 		catch (const std::exception& e) {
 			std::cout << "Invalid input: " << std::endl;
@@ -118,8 +149,6 @@ void MerkelMain::enterAsk()
 
             return;
 		}
-
-        std::cout << "Ask placed: " << input << std::endl;
     }
 }
 
@@ -131,7 +160,7 @@ void MerkelMain::enterBid()
     std::string input;
     std::getline(std::cin, input);
 
-    TextUtils::PrintBreak();
+    TextUtils::printBreak();
 
     std::vector<std::string> tokens = CSVParser::Tokenise(input, ',');
     if (tokens.size() != 3) {
@@ -146,8 +175,17 @@ void MerkelMain::enterBid()
                 tokens[1],
                 tokens[2]
             );
+            newOrder.username = "simuser";
 
-            orderBook.insertOrder(newOrder);
+			if (!wallet.canFulfillOrder(newOrder))
+			{
+				std::cout << "Wallet has insufficient funds." << std::endl;
+				return;
+			}
+            else {
+                orderBook.insertOrder(newOrder);
+                std::cout << "Bid placed: " << input << std::endl;
+            }
         }
         catch (const std::exception& e) {
             std::cout << "Invalid input: " << std::endl;
@@ -158,8 +196,6 @@ void MerkelMain::enterBid()
 
             return;
         }
-
-        std::cout << "Bid placed: " << input << std::endl;
     }
 }
 
@@ -180,6 +216,10 @@ void MerkelMain::gotoNextTimeframe()
         for (OrderBookEntry& sale : sales)
         {
 			std::cout << "Sale price: " << sale.price << " amount " << sale.amount << std::endl;
+            if (sale.username == "simuser") {
+                // Update wallet
+                wallet.processSale(sale);
+            }
         }
     }
     currentTime = orderBook.getNextTime(currentTime);
@@ -189,7 +229,7 @@ void MerkelMain::gotoNextTimeframe()
 void MerkelMain::printExitMessage()
 {
     std::cout << "Exiting" << std::endl;
-    TextUtils::PrintBreak();
+    TextUtils::printBreak();
 }
 
 void MerkelMain::printInvalidInput()
@@ -199,9 +239,9 @@ void MerkelMain::printInvalidInput()
 
 bool MerkelMain::processUserOption(int userOption)
 {
-    TextUtils::PrintBreak();
+    TextUtils::printBreak();
     std::cout << "You chose: " << userOption << std::endl;
-    TextUtils::PrintBreak();
+    TextUtils::printBreak();
 
     switch (userOption)
     {
@@ -231,6 +271,6 @@ bool MerkelMain::processUserOption(int userOption)
         break;
     };
 
-    TextUtils::PrintBreak();
+    TextUtils::printBreak();
     return true;
 }

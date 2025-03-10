@@ -1,8 +1,5 @@
-﻿  CSVParser.cpp
-C:\Users\jfleming\repos\University of London\CM2005\MerkelRex\MerkelRex\CSVParser.cpp(138,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\jfleming\repos\University of London\CM2005\MerkelRex\MerkelRex\CSVParser.cpp(145,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\jfleming\repos\University of London\CM2005\MerkelRex\MerkelRex\CSVParser.cpp(212,31): warning C4101: 'e': unreferenced local variable
-  MerkelRex.cpp
+﻿  MerkelMain.cpp
+C:\Users\jcfle\OneDrive\Documents\University of London\CM2005 - Object Orientated Programming\Repo\MerkelRex\MerkelRex\MerkelMain.cpp(78,31): warning C4101: 'e': unreferenced local variable
   Wallet.cpp
   Generating Code...
-  MerkelRex.vcxproj -> C:\Users\jfleming\repos\University of London\CM2005\MerkelRex\x64\Debug\MerkelRex.exe
+  MerkelRex.vcxproj -> C:\Users\jcfle\OneDrive\Documents\University of London\CM2005 - Object Orientated Programming\Repo\MerkelRex\x64\Debug\MerkelRex.exe

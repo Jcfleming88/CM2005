@@ -8,7 +8,8 @@ enum class OrderBookType
 {
     bid,
     ask,
-    sale,
+    asksale,
+    bidsale,
 	unknown
 };
 
@@ -23,16 +24,22 @@ public:
         std::string product,
         OrderBookType orderType,
         double price,
-        double amount
+        double amount,
+		std::string username = "dataset"
     );
 
     double price;
     double amount;
     std::string timestamp;
 
-    /** In the format offering/requesting */
+    /*
+    For an ask, offering x amount to buy y price.
+	For a bid, offering to buy x amount using y price.
+    */
     std::string product;
     OrderBookType orderType;
+
+	std::string username;
 
     void printPrice();
     void printEntry();

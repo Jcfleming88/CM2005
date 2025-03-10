@@ -8,23 +8,31 @@ std::vector<OrderBookEntry> CSVParser::ReadFile(std::string filename)
 
 	// Open the file
 	std::cout << "Opening file" << std::endl;
-	TextUtils::PrintBreak();
+	TextUtils::printBreak();
+
 	std::ifstream file = std::ifstream{ filename };
 	if (!file.is_open())
 	{
-		std::cout << "Unable to open file" << std::endl;
+		std::cout << "Unable to open file. Check the filepath in MerkelMain.h and try again." << std::endl;
 		return output;
 	};
 
 	// Read each line and convert it to an entry
 	std::cout << "Reading file and checking for errors, please wait..." << std::endl;
 	std::cout << std::endl;
-	std::cout << "Errors" << std::endl;
-	std::string line;
+
+	// Create a vector to store error data
+	std::vector<std::string> errors;
 
 	// Set out error reporting
 	int lineNumber = 1;
 	int errorCount = 0;
+
+	// Output the number of lines read
+	std::cout << "Lines read: " << lineNumber << std::endl;
+
+	// Start by setting up the dictionary and getting the headings from the csv
+	std::string line;
 
 	while (std::getline(file, line))
 	{
@@ -39,39 +47,63 @@ std::vector<OrderBookEntry> CSVParser::ReadFile(std::string filename)
 		catch (const std::exception& e)
 		{
 			// Output the error
-			std::cout << "Line " << lineNumber << ": " << e.what() << std::endl;
+			std::string errorMsg = "Line: " + lineNumber;
+			errorMsg += " - ";
+			errorMsg += e.what();
+			errors.push_back(errorMsg);
+
 			errorCount++;
 		}
 
 		lineNumber++;
+
+		if (lineNumber % 1000 == 0)
+		{
+			TextUtils::deleteLine();
+			std::cout << "Lines read: " << lineNumber << std::endl;
+		}
 	}
 
 	// Correction for getting the total number of lines
 	lineNumber--;
+
+	TextUtils::deleteLine();
+	std::cout << "Lines read: " << lineNumber << std::endl;
 
 	// Close error report
 	if (errorCount == 0)
 	{
 		std::cout << "No errors found." << std::endl;
 	}
+	else
+	{
+		std::cout << "Errors found: " << errorCount << std::endl;
+		std::cout << "Error report:" << std::endl;
+		for (std::string& error : errors)
+		{
+			std::cout << error << std::endl;
+		}
+	}
 	std::cout << std::endl;
 
 	std::cout << "Reading complete" << std::endl;
-	TextUtils::PrintBreak();
+	TextUtils::printBreak();
 	std::cout << "Output Report" << std::endl;
 	std::cout << "Total lines read and converted: " << lineNumber - errorCount << " of " << lineNumber << std::endl;
-	TextUtils::PrintBreak();
+	TextUtils::printBreak();
 
 	// Example output - For debugging to ensure the correct info is coming out
-	std::cout << std::endl;
+	// -----------------------------------------------------------------------
+	/*std::cout << std::endl;
 	std::cout << "Example output from dataset" << std::endl;
 	for (int i = 0; i < 5; i++)
 	{
-		TextUtils::PrintBreak();
+		TextUtils::printBreak();
 		output[i].printEntry();
 	}
-	TextUtils::PrintBreak();
-	std::cout << std::endl;
+	TextUtils::printBreak();
+	std::cout << std::endl;*/
+	// -----------------------------------------------------------------------
 
 	// Close the file when finished
 	std::cout << "Closing file" << std::endl;
@@ -112,7 +144,7 @@ OrderBookEntry CSVParser::StringsToOBE(std::vector<std::string> tokens, int line
 	}
 
 	// Check the numbers are actually numbers
-	if (!TextUtils::IsNumber(tokens[3]) || !TextUtils::IsNumber(tokens[4]))
+	if (!TextUtils::isNumber(tokens[3]) || !TextUtils::isNumber(tokens[4]))
 	{
 		throw std::exception{ "Price or amount is not a number" };
 	}

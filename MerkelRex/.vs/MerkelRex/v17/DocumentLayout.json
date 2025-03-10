@@ -1,34 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\",
+  "WorkspaceRootPath": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\PricingUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\PricingUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\MerkelMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\MerkelMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\OrderBookEntry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\OrderBookEntry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\OrderBookEntry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\MerkelMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\MerkelMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\MerkelMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\PricingUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\PricingUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\Wallet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\Wallet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\MerkelRex.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\MerkelRex.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\Wallet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\Wallet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\OrderBookEntry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\MerkelMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\MerkelMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\CSVParser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\CSVParser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\OrderBookEntry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\OrderBookEntry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\OrderBook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\OrderBook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\TextUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\TextUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\TextUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\TextUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\CSVParser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D6AAC67-265E-4F44-898D-E75ACAEF4037}|MerkelRex\\MerkelRex.vcxproj|solutionrelative:MerkelRex\\CSVParser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,8 +53,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "DockedWidth": 172,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,88 +90,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PricingUtils.cpp",
-              "DocumentMoniker": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\PricingUtils.cpp",
-              "RelativeDocumentMoniker": "MerkelRex\\PricingUtils.cpp",
-              "ToolTip": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\PricingUtils.cpp",
-              "RelativeToolTip": "MerkelRex\\PricingUtils.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-01T13:07:42.294Z",
-              "EditorCaption": ""
+              "DocumentIndex": 9,
+              "Title": "TextUtils.h",
+              "DocumentMoniker": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\TextUtils.h",
+              "RelativeDocumentMoniker": "MerkelRex\\TextUtils.h",
+              "ToolTip": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\TextUtils.h",
+              "RelativeToolTip": "MerkelRex\\TextUtils.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-17T16:38:38.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderBookEntry.cpp",
-              "DocumentMoniker": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\OrderBookEntry.cpp",
-              "RelativeDocumentMoniker": "MerkelRex\\OrderBookEntry.cpp",
-              "ToolTip": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\OrderBookEntry.cpp",
-              "RelativeToolTip": "MerkelRex\\OrderBookEntry.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-01T13:09:01.111Z"
+              "DocumentIndex": 10,
+              "Title": "CSVParser.h",
+              "DocumentMoniker": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\CSVParser.h",
+              "RelativeDocumentMoniker": "MerkelRex\\CSVParser.h",
+              "ToolTip": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\CSVParser.h",
+              "RelativeToolTip": "MerkelRex\\CSVParser.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-17T16:27:44.14Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MerkelMain.cpp",
-              "DocumentMoniker": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\MerkelMain.cpp",
-              "RelativeDocumentMoniker": "MerkelRex\\MerkelMain.cpp",
-              "ToolTip": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\MerkelMain.cpp",
-              "RelativeToolTip": "MerkelRex\\MerkelMain.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-01T13:06:59.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderBookEntry.h",
-              "DocumentMoniker": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\OrderBookEntry.h",
-              "RelativeDocumentMoniker": "MerkelRex\\OrderBookEntry.h",
-              "ToolTip": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\OrderBookEntry.h",
-              "RelativeToolTip": "MerkelRex\\OrderBookEntry.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Title": "MerkelMain.h",
+              "DocumentMoniker": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\MerkelMain.h",
+              "RelativeDocumentMoniker": "MerkelRex\\MerkelMain.h",
+              "ToolTip": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\MerkelMain.h",
+              "RelativeToolTip": "MerkelRex\\MerkelMain.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-01T13:06:08.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PricingUtils.h",
-              "DocumentMoniker": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\PricingUtils.h",
-              "RelativeDocumentMoniker": "MerkelRex\\PricingUtils.h",
-              "ToolTip": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\PricingUtils.h",
-              "RelativeToolTip": "MerkelRex\\PricingUtils.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-01T13:05:05.433Z"
+              "WhenOpened": "2025-01-17T16:15:53.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MerkelMain.h",
-              "DocumentMoniker": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\MerkelMain.h",
-              "RelativeDocumentMoniker": "MerkelRex\\MerkelMain.h",
-              "ToolTip": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\MerkelMain.h",
-              "RelativeToolTip": "MerkelRex\\MerkelMain.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Title": "Wallet.h",
+              "DocumentMoniker": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\Wallet.h",
+              "RelativeDocumentMoniker": "MerkelRex\\Wallet.h",
+              "ToolTip": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\Wallet.h",
+              "RelativeToolTip": "MerkelRex\\Wallet.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-01T13:04:34.121Z"
+              "WhenOpened": "2025-01-17T16:13:05.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderBookEntry.h",
+              "DocumentMoniker": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\OrderBookEntry.h",
+              "RelativeDocumentMoniker": "MerkelRex\\OrderBookEntry.h",
+              "ToolTip": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\OrderBookEntry.h",
+              "RelativeToolTip": "MerkelRex\\OrderBookEntry.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-17T17:16:29.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 228,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderBookEntry.cpp",
+              "DocumentMoniker": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\OrderBookEntry.cpp",
+              "RelativeDocumentMoniker": "MerkelRex\\OrderBookEntry.cpp",
+              "ToolTip": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\OrderBookEntry.cpp",
+              "RelativeToolTip": "MerkelRex\\OrderBookEntry.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-21T19:14:59.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TextUtils.cpp",
+              "DocumentMoniker": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\TextUtils.cpp",
+              "RelativeDocumentMoniker": "MerkelRex\\TextUtils.cpp",
+              "ToolTip": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\TextUtils.cpp",
+              "RelativeToolTip": "MerkelRex\\TextUtils.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-17T16:38:31.57Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MerkelRex.cpp",
-              "DocumentMoniker": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\MerkelRex.cpp",
-              "RelativeDocumentMoniker": "MerkelRex\\MerkelRex.cpp",
-              "ToolTip": "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\MerkelRex.cpp",
-              "RelativeToolTip": "MerkelRex\\MerkelRex.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Title": "CSVParser.cpp",
+              "DocumentMoniker": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\CSVParser.cpp",
+              "RelativeDocumentMoniker": "MerkelRex\\CSVParser.cpp",
+              "ToolTip": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\CSVParser.cpp",
+              "RelativeToolTip": "MerkelRex\\CSVParser.cpp",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAtwEYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-01T13:02:18.123Z"
+              "WhenOpened": "2025-01-17T16:27:45.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MerkelMain.cpp",
+              "DocumentMoniker": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\MerkelMain.cpp",
+              "RelativeDocumentMoniker": "MerkelRex\\MerkelMain.cpp",
+              "ToolTip": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\MerkelMain.cpp",
+              "RelativeToolTip": "MerkelRex\\MerkelMain.cpp",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAAANwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-17T16:15:56.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Wallet.cpp",
+              "DocumentMoniker": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\Wallet.cpp",
+              "RelativeDocumentMoniker": "MerkelRex\\Wallet.cpp",
+              "ToolTip": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\Wallet.cpp",
+              "RelativeToolTip": "MerkelRex\\Wallet.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-17T16:13:06.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderBook.cpp",
+              "DocumentMoniker": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\OrderBook.cpp",
+              "RelativeDocumentMoniker": "MerkelRex\\OrderBook.cpp",
+              "ToolTip": "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\OrderBook.cpp",
+              "RelativeToolTip": "MerkelRex\\OrderBook.cpp",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAAIkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-21T19:19:23.952Z",
+              "EditorCaption": ""
             }
           ]
         }

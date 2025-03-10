@@ -34,6 +34,6 @@ private:
     std::string currentTime;
 
     Wallet wallet{};
-    OrderBook orderBook{ "C:\\Users\\jfleming\\repos\\University of London\\CM2005\\MerkelRex\\MerkelRex\\1XejnIsmSmK3o5yLJkpiUg_2402656ae54246e880715f135341f5f7_20200317.csv" };
+    OrderBook orderBook{ "C:\\Users\\jcfle\\OneDrive\\Documents\\University of London\\CM2005 - Object Orientated Programming\\Repo\\MerkelRex\\MerkelRex\\1XejnIsmSmK3o5yLJkpiUg_2402656ae54246e880715f135341f5f7_20200317.csv" };
 };
 
